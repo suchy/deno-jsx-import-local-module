@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run main.ts"
+  },
+  "imports": {
+    "@pkg/lib/": "../lib/"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@pkg/lib"
+  }
+}
