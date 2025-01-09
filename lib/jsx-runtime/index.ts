@@ -2,10 +2,9 @@ export const jsx = createElement;
 
 export const jsxs = createElement;
 
-export function Fragment() {
-  return '';
+export function Fragment(...args: any[]) {
+  return args;
 }
-
-function createElement() {
-  return '';
+function createElement(...args: any[]) {
+  return args;
 }
